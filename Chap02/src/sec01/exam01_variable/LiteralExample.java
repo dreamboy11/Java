@@ -54,6 +54,23 @@ public class LiteralExample {
 		
 		char var8 = '\u0041';
 		System.out.println(var8);
+		
+		System.out.println();
+		
+		// 문자열 리터럴
+		System.out.println("대한" + "민국");
+		System.out.println("java" + 8);
+		
+		String var9 = "자바";
+		System.out.println(var9);
+		
+		System.out.println();
+		
+		// 논리 리터럴
+		boolean var10 = true;
+		boolean var11 = false;
+		System.out.println(var10);
+		System.out.println(var11);
 	}
 
 }
